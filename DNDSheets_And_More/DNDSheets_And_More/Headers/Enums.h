@@ -44,3 +44,50 @@ enum spell_components {
 	somatic,
 	material
 };
+
+enum keywords {
+	advantage,
+	disadvantage,
+	bonus_action,
+	action,
+	reaction,
+	movement,
+	saving_throw,
+	proficiency,
+	critical,
+	magical,
+};
+
+enum damage_types {
+	bludgeoning,
+	piercing,
+	slashing,
+	force,
+	radiant,
+	psychic,
+	cold,
+	lightning,
+	acid,
+	fire,
+	necrosis,
+	poison,
+	thunder,
+};
+
+enum conditions {
+	blinded,
+	charmed,
+	deafened,
+	frightened,
+	grappled,
+	incapacitated,
+	invisible,
+	paralyzed,
+	petrified,
+	poisoned,
+	prone,
+	restrained,
+	stunned,
+	unconscious,
+	exhaustion,
+};

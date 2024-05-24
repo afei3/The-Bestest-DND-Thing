@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -140,6 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Armor.h" />
+    <ClInclude Include="Headers\Character.h" />
+    <ClInclude Include="Headers\Class.h" />
+    <ClInclude Include="Headers\Enums.h" />
+    <ClInclude Include="Headers\Features.h" />
+    <ClInclude Include="Headers\Spell.h" />
+    <ClInclude Include="Headers\Subclass.h" />
+    <ClInclude Include="Headers\Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
