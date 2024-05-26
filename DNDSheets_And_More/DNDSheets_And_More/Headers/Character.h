@@ -97,6 +97,8 @@ class Character {
 
 	vector<string> known_spells;
 
+	vector<Feature> feats;
+
 	/// <summary>
 	/// IDK broski. I've never used these, but they're here because why not?
 	/// </summary>

@@ -13,7 +13,7 @@ class Armor {
 #pragma region Constructors
 	Armor() {
 		ac = 0;
-		name = new string();
+		name = "";
 		type = armor_type::light;
 		id = armor_id++;
 		cost = 0;
@@ -24,7 +24,7 @@ class Armor {
 
 	Armor(const Armor &c_armor) {
 		ac = c_armor.ac;
-		name = new string(*(c_armor.name));
+		name = c_armor.name.c_str();
 		type = c_armor.type;
 		id = armor_id++;
 		cost = c_armor.cost;
@@ -49,7 +49,7 @@ class Armor {
 	/// <summary>
 	/// Your armor name?
 	/// </summary>
-	string* name;
+	string name;
 
 	/// <summary>
 	/// Armor ID
