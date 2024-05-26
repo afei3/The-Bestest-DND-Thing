@@ -1,6 +1,6 @@
 #pragma once
 
-enum dice_size {
+enum class dice_size {
 	d4,
 	d6,
 	d8,
@@ -9,7 +9,7 @@ enum dice_size {
 	d20
 };
 
-enum stats {
+enum class stats {
 	Strength,
 	Dexterity,
 	Constitution,
@@ -18,7 +18,7 @@ enum stats {
 	Charisma
 };
 
-enum skills {
+enum class skills {
 	Acrobatics,
 	Animal_Handling,
 	Arcana,
@@ -39,13 +39,13 @@ enum skills {
 	Survival
 };
 
-enum spell_components {
+enum class spell_components {
 	verbal,
 	somatic,
 	material
 };
 
-enum keywords {
+enum class keywords {
 	advantage,
 	disadvantage,
 	bonus_action,
@@ -58,7 +58,7 @@ enum keywords {
 	magical,
 };
 
-enum damage_types {
+enum class damage_types {
 	bludgeoning,
 	piercing,
 	slashing,
@@ -74,7 +74,7 @@ enum damage_types {
 	thunder,
 };
 
-enum conditions {
+enum class conditions {
 	blinded,
 	charmed,
 	deafened,
@@ -90,4 +90,21 @@ enum conditions {
 	stunned,
 	unconscious,
 	exhaustion,
+};
+
+enum class armor_type {
+	light,
+	medium,
+	heavy,
+	shield
+};
+
+enum class time {
+	action,
+	second,
+	minute,
+	hour,
+	day,
+	week,
+	month
 };
